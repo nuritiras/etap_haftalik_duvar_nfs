@@ -63,7 +63,9 @@ Bash
 sudo apt update
 
 sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 dconf-cli nfs-common  -y
-#### Çalıştırma:
+
+### Çalıştırma:
+
 sudo chmod +x etap_duvar_nfs.py
 
 sudo python3 etap_duvar_nfs.py
