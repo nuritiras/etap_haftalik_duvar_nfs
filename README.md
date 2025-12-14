@@ -54,7 +54,7 @@ sudo systemctl restart nfs-kernel-server
 
 
 #### B. İstemci (Tahta) Tarafı: Yeni Uygulama Kodu
-Artık tahtalarda çalışacak uygulamayı NFS'e göre uyarlayabiliriz. Kullanıcı adı ve şifre alanlarını kaldırdım, arayüzü sadeleştirdim.
+Artık tahtalarda çalışacak uygulamayı NFS'e göre uyarlayabiliriz.
 
 Ön Gereksinim: Tahtalarda nfs-common paketi yüklü olmalıdır.
 
@@ -63,3 +63,7 @@ Bash
 sudo apt update
 
 sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 dconf-cli nfs-common  -y
+#### Çalıştırma:
+sudo chmod +x etap_duvar_nfs.py
+
+sudo python3 etap_duvar_nfs.py
