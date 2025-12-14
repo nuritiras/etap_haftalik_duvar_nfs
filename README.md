@@ -69,3 +69,5 @@ sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 dconf-cli nfs-common
 sudo chmod +x etap_duvar_nfs.py
 
 sudo python3 etap_duvar_nfs.py
+
+<img width="505" height="654" alt="Ekran Görüntüsü - 2025-12-14 19-39-46" src="https://github.com/user-attachments/assets/c864ca89-2631-4049-89d9-65e09859ed6f" />
